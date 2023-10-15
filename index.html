@@ -1,193 +1,461 @@
 <!DOCTYPE HTML>
 <!--
-	Last update: 05-08-2023
+	Last update: 15-10-2023
 	Developed by Jônata Rocha
 -->
 <html>
-	<head>
-		<title>Portfólio | Jônata Rocha</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Portfolio | Jônata Rocha</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main-principal.css" />
+	<link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/style-test.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
+</head>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+<body>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Portfólio de Projetos</strong> de Ciência de Dados</a>
-								</header>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top vv">
+		<div class="container">
+			<a class="navbar-brand fw-bolder" href="#">Jônata Rocha</a> <!-- Parou aqui -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse primary-navigation" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experiences">Experiences</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<!-- <li class="nav-item">
+							<a class="nav-link" href="#testimonials">Testimonials</a>
+						</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Olá, seja muito bem-vindo(a) ao meu portfólio de projetos de Ciência de Dados.</h1>
-										</header>
-										<p>Nessa página, eu demonstro minhas habilidades de resolver problemas de negócio utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados públicos.<br /><br />
-										Você vai encontrar também, minhas experiências profissionais, habilidades, ferramentas e conceitos envolvendo a Ciência de Dados.<br /><br /> Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
-									</div>
-									<span class="image object">
-										<img src="images/profile-picture.jpg" alt="" />
-									</span>
-								</section>
-
-							<!-- Sobre mim -->
-								<section>
-									<header class="main">
-										<h1>Sobre mim</h1>
-									</header>
-
-									<!-- Content -->
-									<h2 id="content">Meu nome é Jônata Rocha</h2>
-									<p>Sou formado em Ciência da Computação e estudante do curso profissionalizante de Ciência de Dados.</p>
-									<p>Atualmente, sou um Cientista de dados em formação, pois tenho muita familiaridade com os conceitos de matemática e estatística, como álgebra linear, cálculo, probabilidade e entre outras disciplinas. Sou proativo, com uma boa comunicação interpessoal, possuo muita responsabilidade e comprometimento com minhas atribuições e compromissos.</p>
-									<p>Estou buscando uma oportunidade de trabalhar profissionalmente como Cientista de Dados para melhorar os resultados e eficiência de processos e serviços na tomada de decisão da empresa, através da construção de soluções usando dados.</p>
-								</section>
-
-							<!-- Habilidades -->
-								<section>
-									<header class="major">
-										<h2>Habilidades</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon solid fa-code"></span>
-											<div class="content">
-												<h3>Linguagens de Programação</h3>
-												<ul>
-													<li>Python com foco em análise de dados</li>
-													<li>Pensamento Estratégico</li>
-													<li>Conceitos de ETL</li>
-													<li>SQL Language</li>
-												</ul>
-											</div>
-										</article>
-										<!-- <article>
-											<span class="icon solid fa-chart-pie"></span>
-											<div class="content">
-												<h3>Estatística e Machine Learning</h3>
-												<ul>
-													<li>Dolor etiam magna etiam.</li>
-													<li>Sagittis lorem eleifend.</li>
-													<li>Felis dolore viverra.</li>
-												</ul>
-											</div>
-										</article> -->
-										<article>
-											<span class="icon solid fa-chart-bar"></span>
-											<div class="content">
-												<h3>Visualização de Dados</h3>
-												<ul>
-													<li>Matplotlib e Seaborn.</li>
-													<li>Streamlit.</li>													
-												</ul>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-laptop-code"></span>
-											<div class="content">
-												<h3>Engenharia de Software</h3>
-												<ul>
-													<li>Github</li>
-													<li>Streamlit Cloud</li>
-													<li>SQLite3 Database</li>
-												</ul>
-											</div>
-										</article>
-									</div>
-								</section>
-
-							<!-- Experiência -->
-								<section>
-									<header class="major">
-										<h2>Experiências Profissionais</h2>
-									</header>
-
-										<h3 id="content">Monitoria em Estruturas de Dados e Programação</h3>
-										<p>Monitor da disciplina Estruturas de Dados e Programação na Universidade Federal de Mato Grosso do Sul, 
-										   durante 1 semestre, auxiliei alunos da disciplina com dificuldades ou dúvidas referentes a alguns conceitos, tipo o de Árvores e Tabelas de Dispersão. </p>
-										<p>Objetivos específicos: atendimento aos alunos para tirar dúvidas, preparar
-											material para explicar, correções de mini trabalhos semanais, tradução de código de
-											linguagem de programação C para Python, desenvolvimento de pequenas animações das estruturas de dados
-											para serem mostradas em sala de aulas.</p>
-										<p>Competências: Lógica de Programação ▪️ Liderança ▪️ Estrutura de Dados ▪️ Python ▪️ Matemática ▪️ Habilidades analíticas ▪️ Manipulação de dados ▪️ Resolução de problemas ▪️ Ciência da computação ▪️ Ciência de dados ▪️ Trabalho em equipe</p>
-								</section>
-
-							<!-- Projetos -->
-								<section>
-									<header class="major">
-										<h2>Projetos em Ciência de Dados</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="https://github.com/rochaJonata/Curry-Company-Project" class="image"><img src="images/logo.png" alt="" /></a>
-											<h3>Desenvolvimento de um Painel Gerencial para Marketplace de Entregas com o Streamlit</h3>
-											<p>Nesse projeto, os conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de delivery de comida na Índia.</p>
-											<p>O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado na internet.</p>
-											<h4>As ferramentas utilizadas foram:</h4>
-											<ul>
-												<li>Python</li>
-												<li>Jupyter Lab</li>
-												<li>Terminal</li>
-												<li>Streamlit</li>
-												<li>Streamlit Cloud</li>
-												<li>Github</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/rochaJonata/Curry-Company-Project" class="button">Saiba Mais</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/rochaJonata/fome_zero-project" class="image"><img src="images/logo-fome_zero.png" alt="" /></a>
-											<h3>Desenvolvimento de um Painel Gerencial para Negócio com o Streamlit</h3>
-											<p>Nesse projeto, foram usados os conceitos de Programação em Python com foco em análise de dados, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como o Streamlit e Github, para desenvolver um painel gerencial com as principais métricas de uma empresa de marketplace global de restaurantes.</p>
-											<p>Após os dados passarem por um processo de ETL, o resultado final do projeto foi um dashboard produzido e hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado na internet.</p>
-											<h4>As ferramentas utilizadas foram:</h4>
-											<ul>
-												<li>Python</li>
-												<li>Jupyter Lab</li>
-												<li>Terminal</li>
-												<li>Streamlit</li>
-												<li>Streamlit Cloud</li>
-												<li>Github</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/rochaJonata/fome_zero-project" class="button">Saiba Mais</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
-
-							<!-- Contatos -->
-								<section>
-									<header class="major">
-										<h2>Contatos</h2>
-									</header>
-									<p>Sinta-se à vontade para entrar em contato:</p>
-
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><h4><a href="#">atanoj_ahcor_avlis@outlook.com</a></h4></li>
-										<li class="icon brands fa-linkedin"><h4><a href="https://www.linkedin.com/in/rocha-jonata/">LinkedIn</a></h4></li>
-									</ul>
-								</section>
+	<!-- Banner -->
+	<section id="home" class="bg-header page-section"
+		style="background: transparent url(images/home.jpg); padding-top: 100px;">
+		<div class="bg-overlay"></div>
+		<div class="container">
+			<div class="container-fullscreen">
+				<div class="">
+					<div class="col-lg-6">
+						<div class="pb-5 pt-5">
+							<h1 class="display-5 mb-0 pb-0 heading-title">Hey, I’m </h1>
+							<h1 class="display-2 fw-medium ">Jônata Rocha</h1>
+							<p class="lead">Welcome to my portfolio of Data Science projects.
+								On this page, I demonstrate my skills to solve business problems using Data Science
+								concepts and tools, through projects with public data. You will also find, my
+								professional experiences, skills, tools and concepts involving Data
+								Science.<br /><br />Please feel free to get in touch.</p>
+							<div class="d-flex pt-4 aa">
+								<div class="icon-circle d-flex align-items-center justify-content-center">
+									<a href="https://www.linkedin.com/in/rocha-jonata/">
+										<img src="images/linkedin.ico" alt="Ícone" class="d-flex align-items-center justify-content-center" width="18" height="17">
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
+				</div>
 			</div>
+		</div>
+	</section>
+	
+	<!-- About -->
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Main -->
+		<div id="main">
 
-	</body>
+			<div class="inner">
+
+				<!-- Sobre mim -->
+				<section id="about" class="page-section">
+
+					<h2 class="title display-3 fw-medium pb-3 pt-5">About Me</h2>
+					<p class="lead pb-3">I have a degree in Computer Science and a student of the Data Science
+						professional course.<br /><br />
+						Currently, I'm a Data Scientist in training, as I'm very familiar with the concepts of
+						mathematics and statistics, such as linear algebra, calculus, probability and among other
+						disciplines. I am proactive, with good interpersonal communication, I have a lot of
+						responsibility and commitment to my assignments and commitments.<br /><br />
+						I'm looking for an opportunity to work professionally as a Data Scientist to improve the results
+						and efficiency of processes and services in the company's decision-making process, by building
+						solutions using data.
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="skills-bg">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+
+				<div class="inner">
+
+					<!-- Skills -->
+					<section id="skills" class="page-section">
+
+						<div class="container">
+
+							<div class="row">
+								<div class="col-12 bg-title">
+
+									<h2 class="display-5 mb-2 fw-semibold">Skills</h2>
+
+								</div>
+
+								<div class="features">
+									<article>
+										<span class="icon solid fa-code"></span>
+										<div class="content">
+											<h3>Programming Languages</h3>
+											<ul>
+												<li>Python with a focus on data analysis</li>
+												<li>Strategic thought</li>
+												<li>ETL Concepts</li>
+												<li>SQL Language</li>
+											</ul>
+										</div>
+									</article>
+									<article>
+										<span class="icon solid fa-chart-bar"></span>
+										<div class="content">
+											<h3>Data Visualization</h3>
+											<ul>
+												<li>Matplotlib and Seaborn</li>
+												<li>Streamlit</li>
+												<li>Microsoft Excel</li>
+											</ul>
+										</div>
+									</article>
+									<article>
+										<span class="icon solid fa-laptop-code"></span>
+										<div class="content">
+											<h3>Software Engineering</h3>
+											<ul>
+												<li>Github</li>
+												<li>Streamlit Cloud</li>
+												<li>SQLite3 Database</li>
+											</ul>
+										</div>
+									</article>
+									<article>
+										<span class="icon solid fa-chart-pie"></span>
+										<div class="content">
+											<h3>Statistics and Machine Learning</h3>
+											<ul>
+												<li>Descriptive Statistics</li>
+												<li>Regression, Classification and Clustering Algorithms</li>
+												<li>Performance Metrics (RMSE, MSE, MAE, MAPE, Confusion Matrix, Precision, Recall, ROC Curve, Silhouette Score and R2 )</li>
+												<li>Machine Learning Packages: Sklearn</li>
+											</ul>
+										</div>
+									</article>
+								</div>
+
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Experiences -->
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+
+			<div class="inner">
+
+				<!-- Professional Experiences -->
+				<section id="experiences" class="page-section">
+
+					<div class="col-12 bg-title">
+
+						<h2 class="display-6 mb-2 fw-semibold pt-5">Professional Experiences</h2>
+
+					</div>
+
+					<div class="container-time">
+
+						<div class="timeline-item" date-is='2022'>
+							<h3 id="content">Monitoring in data structures and programming</h3>
+							<p>Monitor of the discipline Data Structures and Programming at the Federal University of
+								Mato Grosso do Sul, during the first semester, I helped students of the discipline with
+								difficulties or doubts regarding some concepts, such as Trees and Scatter Tables.
+							</p>
+							<p>Specific objectives: answering questions to students, preparing material to explain,
+								weekly mini-work corrections, translation of C programming language code into Python,
+								development of small animations of data structures to be shown in the classroom.
+							</p>
+							<p>Skills: Logic Programming ▪️ Leadership ▪️ Data Structure ▪️ Python ▪️ Mathematics ▪️
+								Analytical Skills ▪️ Data Manipulation ▪️ Problem Solving ▪️ Computer Science ▪️ Data
+								Science ▪️ Teamwork
+							</p>
+						</div>
+
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects -->
+	<div class="projects-bg">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+
+				<div class="inner">
+
+					<!-- Projects -->
+					<section id="projects" class="page-section">
+
+						<div class="container">
+
+							<div class="row">
+								<div class="col-12 bg-title">
+
+									<h2 class="display-5 mb-2 fw-semibold">Projects</h2>
+
+								</div>
+
+								<div class="posts">
+
+									<article>
+										<a href="https://github.com/rochaJonata/ensaio-machine-learning" class="image"><img
+												src="images/project-machine_learning_essay.png" alt="" /></a>
+										<h3>Machine Learning Essay</h3>
+										<p>In this project, we investigate essential concepts related to training Machine Learning algorithms, optimizing parameters, and defining critical boundaries between overfitting and underfitting in various tasks, including classification, regression, and clustering. This was accomplished through a Machine Learning experiment. The final result of the project was the creation of a dashboard that displays the performance of these Machine Learning algorithms, taking into account variations in the main parameters of each algorithm. These parameters play a crucial role in controlling overfitting and underfitting phenomena.
+										</p>
+										<h4>The tools used were:</h4>
+										<ul>
+											<li>Python 3.11.3 and Scikit-learn</li>
+											<li>Classification algorithms: KNN, Decision Tree, Random Forest and
+												Logistic Regression</li>
+											<li>Regression algorithms: Linear Regression, Decision Tree
+												Regressor, Random Forest Regressor, Polynomial Regression, Linear
+												Lasso Regression, Linear Regression Ridge, Linear Regression
+												Elastic Net, Polynomial Regression Lasso, Polynomial Regression
+												Ridge and Polynomial Regression Elastic Net</li>
+											<li>Clustering Algorithms: K-Means and Affinity Propagation</li>
+											<li>Performance metrics: Accuracy, Precision, Recall and F1-Score, R2, MSE, RMSE, MAE, MAPE and Silhouette Score</li> 
+										</ul>
+										<ul class="actions">
+											<li><a href="https://github.com/rochaJonata/ensaio-machine-learning"
+													class="button">VIEW DETAILS</a></li>
+										</ul>
+									</article>
+
+									<article>
+										<a href="https://github.com/rochaJonata/fome_zero-project" class="image"><img
+												src="images/business_management_panel.png" alt="" /></a>
+										<h3>Development of a Business Management Panel with Streamlit</h3>
+										<p>In this project, Python programming concepts focused on data analysis, data
+											manipulation, strategic thinking and business logic were used, along with
+											web development tools such as Streamlit and Github, to develop a management
+											panel with the main metrics of a global restaurant marketplace company.</p>
+										<p>After the data went through an ETL process, the final result of the project
+											was a dashboard produced and hosted in a Cloud environment and made
+											available through a web link. The dashboard can be accessed from any device
+											connected to the internet.</p>
+										<h4>The tools used were:</h4>
+										<ul>
+											<li>Python</li>
+											<li>Jupyter Lab</li>
+											<li>Terminal</li>
+											<li>Streamlit</li>
+											<li>Streamlit Cloud</li>
+											<li>Github</li>
+										</ul>
+										<ul class="actions">
+											<li><a href="https://github.com/rochaJonata/fome_zero-project"
+													class="button">VIEW DETAILS</a></li>
+										</ul>
+									</article>
+								</div>
+
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contacts -->
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+
+			<div class="inner">
+
+				<!-- Contacts -->
+				<section id="contact" class="page-section">
+					<div class="col-12">
+
+						<h2 class="display-5 mb-2 fw-semibold pt-5">Contact Me</h2>
+
+					</div>
+					<p class="bg-contact-title">I'm open to connections, collaborations and new challenges. Let's
+						explore the world of data and technology together to drive innovation and create a positive
+						impact. Connect with me and let's build a smarter, more analytical future.</p>
+
+					<div class="row">
+						<div class="col-6 col-12-small d-flex">
+							<div class="p-4 alert-warning rounded-circle bb"> <span class="material-icons"> email</span></div>
+							<div class="ms-4">
+								<address class="mb-5">
+									<h4 class="text-muted mb-0 pb-3"> Email </h4>
+									<a href="mailto:atanoj_ahcor_avlis@outlook.com"
+										class="display-8 text-secondary">atanoj_ahcor_avlis@outlook.com</a>
+								</address>
+							</div>
+						</div>
+						<div class="col-6 col-12-small d-flex">
+							<div class="p-4 icon brands fa-linkedin rounded-circle bb"> </div>							
+							<div class="ms-4">
+								<address class="mb-5">
+									<h4 class="text-muted mb-0 pb-3"> LinkedIn </h4>
+									<a href="https://www.linkedin.com/in/rocha-jonata/"
+										class="display-8 text-secondary">rocha-jonata</a>
+								</address>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script src="assets/js/jquery2.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+
+
+	<script>
+		const navigation = document.querySelector(".primary-navigation");
+
+		const navigationHeight = navigation.offsetHeight;
+
+		document.documentElement.style.setProperty(
+			"--scroll-padding",
+			navigationHeight + "px"
+		);
+		$('.navbar-collapse a').click(function () {
+			$(".navbar-collapse").collapse('hide');
+		});
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('.vv').addClass('vv2 shadow-sm');
+			} else {
+				$('.vv').removeClass('vv2 shadow-sm');
+			}
+		});
+		/* Code for changing active
+					link on clicking */
+		var btns =
+			$(".navbar-nav .nav-link");
+
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].addEventListener("click",
+				function () {
+					var current = document
+						.getElementsByClassName("active");
+
+					current[0].className = current[0]
+						.className.replace(" active", "");
+
+					this.className += " active";
+				});
+		}
+
+		/* Code for changing active
+		link on Scrolling */
+		$(window).scroll(function () {
+			var distance = $(window).scrollTop();
+			$('.page-section').each(function (i) {
+
+				if ($(this).position().top
+					<= distance + 250) {
+
+					$('a.nav-link.active')
+						.removeClass('active');
+
+					$('a.nav-link').eq(i)
+						.addClass('active');
+				}
+			});
+		}).scroll();
+
+		$('.testimonials').owlCarousel({
+			loop: false,
+			margin: 20,
+			nav: false,
+			dots: true,
+			responsive: {
+				0: {
+					items: 1
+				}
+			}
+		})
+	</script>
+
+</body>
+
 </html>
